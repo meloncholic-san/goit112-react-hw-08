@@ -18,6 +18,7 @@ const authSlice = createSlice({
     //треба в стані буде створити додоткові елементи, і нічого страшного, що вони будуть такі
     //самі, як в contacts? є варіант змінювати isLoading контактів
     // через extraReducers на action register. Чи нормально так робити? 
+    
     .addCase(register.pending, state =>{
         state.isLoggedIn = false;
     })

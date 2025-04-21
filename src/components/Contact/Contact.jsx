@@ -2,7 +2,7 @@ import css from './Contact.module.css';
 import DeleteContactModal from '../DeleteContactModal/DeleteContactModal';
 
 import { useDispatch } from 'react-redux';
-import { deleteContact } from '../../redux/contacts/contactsOps';
+import { deleteContact } from '../../redux/contacts/operations';
 import { useEffect, useState } from 'react';
 
 export default function Contact({ contact: { id, name, number }}) {

@@ -4,7 +4,7 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import ContactList from "../../components/ContactList/ContactList";
 import SearchBox from "../../components/SearchBox/SearchBox";
 import css from "../ContactsPage/ContactsPage.module.css"
-import { fetchContacts } from "../../redux/contacts/contactsOps";
+import { fetchContacts } from "../../redux/contacts/operations";
 
 
 export default function ContactsPage () {

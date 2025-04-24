@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 import css from './HomePage.module.css'
 import { NavLink } from 'react-router-dom';
-import { selectIsLoggedIn, selectUser } from '../../redux/auth/authSelectors';
+import { selectIsLoggedIn, selectUser } from '../../redux/auth/selectors';
 
 export default function HomePage () {
 

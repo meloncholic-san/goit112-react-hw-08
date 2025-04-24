@@ -1,7 +1,7 @@
 
 import { useEffect, Suspense, lazy } from "react";
 import { refreshUser } from '../../redux/auth/operations';
-import { selectIsRefreshing, selectUserToken } from '../../redux/auth/authSelectors'
+import { selectIsRefreshing, selectUserToken } from '../../redux/auth/selectors'
 import { useDispatch, useSelector } from "react-redux";
 import { Route, Routes } from 'react-router-dom';
 import Layout from '../Layout/Layout';

@@ -1,7 +1,7 @@
 import Contact from "../Contact/Contact";
 import css from './ContactList.module.css';
 
-import { selectIsLoading, selectVisibleContacts, selectIsError } from '../../redux/contacts/selectContacts'
+import { selectIsLoading, selectVisibleContacts, selectIsError } from '../../redux/contacts/selectors'
 import { useSelector } from "react-redux";
 
 

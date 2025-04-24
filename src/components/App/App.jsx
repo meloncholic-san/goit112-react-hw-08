@@ -21,14 +21,10 @@ export default function App() {
 
   const isRefreshing = useSelector(selectIsRefreshing);
   const dispatch = useDispatch();
-  const userToken = useSelector(selectUserToken);
 
   useEffect(()=> {
-    if (userToken) {
       dispatch(refreshUser());
-    }
-
-  },[dispatch, userToken]);
+  },[dispatch]);
 
   return isRefreshing ? ( <b>Refreshing... please wait!</b> ) :(
     <Layout>
